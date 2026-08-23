@@ -19,3 +19,10 @@ crash.log
 # Terraform hidden files should not be committed to Git.
 *.terraform*
 *.tfstate*
+
+.github
+# Ansible settings should be ignored.
+.ansible
+
+# VS Code settings should be ignored.
+.vscode
